@@ -1,6 +1,5 @@
-#Reverse a integer number n
-n=76542
-b=len(str(n))
+#Reverse a number
+n=76540
 reverse_num=0
 while(n>0):
     remainder=n%10
