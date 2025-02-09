@@ -9,7 +9,7 @@ for i in a:
     else:
         b.add(i)
 print(duplicates)
-'''#method 2
+#method 2
 duplicates=list(set([i for i in a if a.count(i)>1]))
 print(duplicates)
 #method 3
@@ -20,5 +20,5 @@ for i in a:
         b[i]=1
     else:
         duplicates.append(i)
-print(duplicates)'''
+print(duplicates)
 
