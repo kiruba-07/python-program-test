@@ -1,8 +1,3 @@
-a=[]
-for i in range(5):
-   n=float(input("enter a float number:"))
-   a.append(n)
-print(a)
 #prime number or not
 n=int(input("enter a number:"))
 if n>1:
